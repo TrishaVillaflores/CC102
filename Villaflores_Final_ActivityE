@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 8;  
+
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int p = 1; p <= rows - i; p++) {
+            cout << "  ";  
+        }
+        for (int p = 1; p <= i; p++) {
+            cout << p << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
